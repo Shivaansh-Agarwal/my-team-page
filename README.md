@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://shivaansh-agarwal.github.io/DevChallenges.io/01%20Responsive-Web/my-team-page-master">
+    <a href="https://shivaansh-agarwal.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
