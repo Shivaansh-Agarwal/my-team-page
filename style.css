@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    min-height: 100vh;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 110px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.title {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.description {
+    margin-left: 215px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.desc-top {
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.desc-bottom {
+    font-style: normal;
+    font-weight: normal;
+}
+
+main {
+    margin-top: 96px;
+    max-width: 900px;
+}
+
+.main-row1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.card-top {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.emp-pic {
+    width: 238px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.emp-designation {
+    margin-left: 10px;
+
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.card-bottom {
+    margin-top: 15px;
+}
+
+.emp-name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #333333;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.card2 {
+    margin-top: 80px;
+}
+.card4, .card6 {
+    margin-top: 30px;
+}
+.card5 {
+    margin-top: 110px;
+}
+
+@media(max-width: 1457px){
+    .main-container{
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 70px;
+    }
+    header {
+        max-width: 375px;
+    }
+    .description {
+        margin-left: 0px;
+        margin-top: 38px;
+    }
+    .desc-top {
+        margin-top: 10px;
+    }
+    .desc-bottom {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    main {
+        margin-top: 50px;
+        max-width: 375px;
+    }
+    .emp-pic {
+        width: 138px;
+        height: auto;
+    }
+    .card-bottom {
+        margin-top: 10px;
+    }
+    .emp-name {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .emp-designation {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .card2, .card4, .card6 {
+        margin-top: 40px;
+    }
+    .card3, .card5 {
+        margin-top: 16px;
+    }
+}
